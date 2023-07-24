@@ -50,6 +50,10 @@
     padding-right: 20px;
 }
 
+.header .inner-menu ul li:hover {
+    color: var(--color-highlight);
+}
+
 .header .inner-menu ul li a {
     font-weight: 500;
     font-size: 13px;
