@@ -525,13 +525,15 @@
 
 .section-seven .inner-item.inner-decoration::after {
     background: url(../images/circle-dec.png) center center no-repeat;
+    background-repeat: no-repeat;
     content: '';
     position: absolute;
     width: 70%;
-    height: 32px;
+    height: 22px;
     top: 160px;
     left: 70%;
     transition: all 0.3s ease 0s;
+    background-size: contain;
 }
 
 .section-seven .inner-item strong {
